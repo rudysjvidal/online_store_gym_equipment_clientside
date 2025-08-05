@@ -1,8 +1,8 @@
-import { ReactElement } from "react"
-import { Product } from './types/Product'
+import type { ReactElement } from "react"
+import type { Product } from '../types/Product'
 
 type Props = {
-    products: Products[],
+    products: Product[],
     title: string
 }
 
