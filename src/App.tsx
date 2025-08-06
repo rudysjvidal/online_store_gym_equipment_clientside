@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { ProductList } from './components/ProductList'
 import type { Product } from './types/Product'
+import { RenderProduct } from './components/renderProduct'
 
 let products: Product[] = [
   {
@@ -66,6 +67,21 @@ let products: Product[] = [
     "on_hand": 15,
     "description": "Portable Bluetooth speaker with excellent sound quality"
   }]
+
+  /* TEST FOR RENDER PRODUCT
+  let product1: Product[] = [
+    {
+      "id": "1",
+      "name": "Classic T-Shirt",
+      "price": 19.99,
+      "categories": [
+        "clothing",
+        "casual",
+        "cotton"
+      ],
+      "on_hand": 50,
+      "description": "Comfortable cotton t-shirt available in multiple colors"
+    }];*/
 
 
 function App() {
