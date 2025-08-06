@@ -11,9 +11,9 @@ export const ProductList = (props: Props): ReactElement => {
     const listOfProducts = props.products;
     return <div>
         <h1>{props.title}</h1>
-        <pre>
+        <div>
             {listOfProducts.map(product => 
                 { return (<RenderProduct product={product} />) })}
-        </pre>
+        </div>
     </div>
 }
